@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Latihan HTML</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
     <p>Belajar Website</p>  
@@ -17,9 +18,12 @@
         Ini Contoh Text Paragraph, Lorem ipsum, 
     </p>
     <a href="input.html">
-        <button> Input Data</button>
+        <button class="my-btn">Input Data</button>
     </a>
-    <table border="1"> 
+    <button class="outline-btn">Free Commercial Trial</button>
+    <br />
+    <br />
+    <table class="my-table">
         <thead>
                 <th>NPM</th>
                 <th>Nama</th>
@@ -47,5 +51,21 @@
     </table>
     <img src="bellingham.jpg" width="30%"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Real_Madrid_C.F._the_Winner_Of_The_Champions_League_in_2018_%281%29.jpg" width="30%"/>
+
+    </h1class>
+    <div class="my-card">
+    <div class="card-image">    
+        <img
+        width="30%"
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAxQMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcEBQgBAwL/xABBEAABAwMBBAcFBQUHBQAAAAABAAIDBAURBhIhMUEHEyJRYXGBFDKRocEjM0Kx0RVScvDxFkNiY4Lh4iRUorLS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALxREQEREBERAXmQsG8Xajs9G6qrpQxg3Ac3HuA5qotV9IVbcS+Gke6kpM+609p3mfogsy+avs1nyyeqEkw/uoe0fXkPVQi69KdSctt1LFAzfh0pL3H8gPmqmrLuSTsFauatmlO4lBYdfr68Tk9Zc5mg/hiOwB8FpJ9TzykmWrnkJ5vlcfzURIlfzPmvBEScbYz3bW9BKG39zTlsrmnvBWwpdX18JHU3KpZ5Su/VQl1M9oy4kDxK/IY7GWuB8QUFs27pJvdORmrZUDumZnPwwVMLR0n0U4a250zoXHjJD2m/DiPmueA+aPtAu9VmU9zljPaOUHWVuudFc4RNQVMc7O9h3jzHELKBzwXMVn1DNSTsmo6iSCYfiYcZVuaS6Roa1zKW87MUp3NqG7mu/iHLz4eSCwkX5DgRkcOS/SAiIgIiICIiAiIgIiIC1Wor5S2C3vq6t2/hHHzkd3BbGolZBC+aVwbHG0uc48gOKoHW+ppL3dHzbThA0lsDP3W5/M8SgwtUakq7xWOqqx+X+6xgO5g7gFEaieSZxGTvKyZiXEZ4nh4qz9AdFvtLI7lqZhETwHxUWSC4ccv7h4f0QV1p3R151FK0W2jkkizh07uzG3zcfyG9WlYehehha197r5Z384qcbDPIuO8+mFadNBDTQNhp4mRRMGGsY0Na0dwC+qCPW3ROmrcAKa0UxcBjblb1jj6uyt5DTQQNDYII42jgGMAHyX1RAxnisKqtNtrM+1W+lmzxMkLSfyWaiCF3bow0tcQ7ZonUjzwfTSFuD5HI+Sr7UXQ1cKWN8tkqW1zRv6p4Ecn6H5K9UQcg1dDV2+odT1cEsEzD2o5GlpHxWZRVro3APO5dLam0tatS0phuVMC8D7Odu6SM+B+nBUHrHR9fpOtbHVASUspPUVLRuf4Hud4fBBOej7XJoTHbrnLtUR7Mcrv7n/j+St1rg4AtIIPMLlSllMZ8FdPRZqj22n/ZFZJmWJuadx/E3m3zH5eSCxEREBERAREQEREBCiIIB0r3gw2+O0QvxJUjblxyYDu+JHyKpaqY9jiZMFp4EclMNZ3M3PUNZUbWYmv6uP8Ahbu/U+qwtGWeTUWpWUc8YFLH9pKQeMY4j1JAQSjoo0Q2Uxagu0RwDmjgeNx/zHD8vj3K3Mb14xjY2NYxoa1owGgYAC/SAiIgIiICIiAiIgLCvNrpLzbpqC4QiWnmbhw5jxB5Ed6zUQcz6s07VaYvL6Ko2pIndqnmx9639RwKWGoqaCugrIndXJC8PYBzIPPwV56+sDb9YJo2NBq4AZad2N+0Bvb6jcqDpHSEu2wG4duweSDpa010VzttPWwEbE0YcN/DvHodyy1Aeia5ddbKm3udvgf1jP4XcfmD8VPkBERAREQEREBYN7rP2fZ62sBG1DA97c94G75rOUb6Q5Oq0dcTvG0wN3eLggoeabEWy5rgcYyDlWp0KWllLY6m49Y+V9VLsMc/fssZwAPPeTvKqSsOBvV/9HEAp9D2cD8dOJD5uJd9UEkHBERAREQEREBERAREQEREBc7a5tcdm1lXRskkMb3dZFHjc1r9+AB453ldEqmOmuERajoZgPvqXB/0uP8A9BB8+iu4GHVUUWMMqYXxnJ5+8P8A1V1Bc+6FlMWqbU//ADwPiCF0GgIiICIiAiIgKNdIsZk0bcdkZLWNdu8HBSVavVEHtOnblEOJpn49BlBzbcd2DyXQnR3M2fRFlLCDsUrYzjvb2T+SoO4xbcZ8lM+iLW0FscbBd5mxQySF1LM44DXHi09wOMgoLrRVRqfpptlNCYtNQvrqk5HWysLImfV3pu8VXo6Vdair9p/ajNnOTB7LH1eO7htY9c+KDplFHtDaop9WWCK5Qt6qUOMc8Oc9W8cR5cCPAqQoCIiAiIgIi8yg9RVD0rdJdbZ7kbJpyVsdTEAamq2Gv2CfwNByM8MnBURsXS/qm2zg3R7LnTE9pkkbY3geDmgfMH0QdGKlunCoa7UFsgaQXR0zifDad/xUvtnSrpa4W+oqva3076aHrZaedha8DIGG8nHJA3HmqZvl6n1RqOe5zjYDzhkf7jBwCDe6JiMmprS0f9w0/BdBqkejSnEurKPIyImvf8G4+qu5AREQEREBERAXzqIxNTyRO4PYWn1C+iIOaa+NzSWkcNyi14i2HQv4NEg2lYWoqPqrhUtxuErwPQkKL3GiE8L4yPeBHkg1kVC2GZud7XDHkf6LMdQNc3Gz8l87XL7RStjl+9jPVP8ABw90/T4LaxHLQTuPMIMjo41E/R+qGMqHkW6s+znycBvc70/LK6Sa4OAIOQeBHNct3WlE8Bc0dtu9pVy9Dupf21p4UFRITWW4NjIcd7o+DT44wR6eKCwEREBERAUb19qVml9O1FdlvtLgY6ZjvxPI3eg4qRlc99J1+/tNqo08Di6hoCYmYO5xz2nepHwA70EQpqeWrlkrKtzpJp3F73O4knvX7qKJjY3OLdwC28bAxmO7kvlOBnBGQztEd55D4oIzXUZp6XJ+8e4NA8Sc/ot3boerYTjeThYbo/brsGDfFS+8e95W+p4RkNA4IJ70R0+1fJ5iPcpiB6uarbVedFVN1bq2QjeWMA9Sf0VhoCIiAiIgIiICIh4IKe1fTYuVwbzjmc70OD9VCpgMuaeB3K1NfUfUXNlWG/ZVMey/+Jv+2PgqsurDT1D2dx3eSDQ1TfYroHk4hqhsP/wu5H+e5bFkm7aO53B47ivlcIG19E5hPb5HuI4LX2+rL42mU7/upvBw4H6fBBuxIHDC+ulr2/SmrKa5AH2SR3V1LR+44jJ9Nx/0rU9fsOLXbiF7Ns1EJYdx5FB1TE9srGyRvD2OALXA5BB4FftVx0K6kdc7A601ku3WW7sAni+I+6fTh6BWOgIi8PBBEulDUf8AZ3S8z4HgVtV9jTjO8E+870GfXCoWgiETNp57b95K3XSLqL+02rpHQybVBQ/YQAHc4j3nep+QHitCZ8bsoM50oxlYdfVezQvkOMxjOO954D0/RfPr8B0mMgHDW95WLG01tyjhJ2o6Y9ZKeTnn/dBsrNSGlo2mU5ld237vxFby2xdbO1vMlawvGQ1pzhSCxMDInTOHgwILO6O4g2mrZANxkawejf8AdS9afSlEaCx08bxiSQGV+e92/wCQwPRbhAREQEREBERAREQajVNr/atmngYAZmjbhz+8OHx4eqoq+jrIetAIdHucDxAXRZVPdJtn/ZV19tiZ/wBHXEkjk2T8Q9ePxQVnHP1b9knsnitfcYxTV3WnPVVHZfjk7v8A57l9q1hgmcwcOWeYXo2a6jdBI7DwNxPyKDHfK58e0/7yM4dg8RyK9jqe4rBhlew/aN7TOxI3wX6P2b8ZyDvHkgkWmL+/TWp6O7RFxja7YnYDucw7iPr5gLqOkniqqaKop5GyQysD43tOQ5pGQfguPHnbjLSr66CdRG56cltVQ8motxAGecbs4+BB+SCzlBOl7VI09ph9PTybNdXh0MOy7Ba3Had8Dj1U75LmHpR1CdQ6yqXMdtUlG4wQ93ZOCR5kFBHoXdRC1vPC/Blc5waDvJXwkccnevGEsZtNPbf2W+HigypqkRAuaexH2Wf4nLPt0ZoaQbf3z+08n94/otTRRieqbuzFT8+9yzZp9uTAPZG7zQbOlLpZAxvvE4Vj6LtjbldaelAzT04EkpHAgHh6n6qu7RiNpnf5NV+6BsjrPZWPqG7NXVYkmB4t/db6D5koJMF6iICIiAiIgIiICIiAtbqGz099tNRb6rc2VvZeBkscODh5FbJEHLOp7VV2yrmoq+PYqoDg7tzh3g8weIWgilMMrXj+q6c1zo6l1TRZ7MVfEPsZ8f8Ai7vH5LnPUFlrbJcZaOvp3RSNPunn4g8x4oMG5sDZWVsYBY/syD6r47PYDc5AGWnwWTB7roZN7H7sFbnReka/UtbVW2mkgZJTxiZjpnOGWE43EA+CCPMaSOCuroH07VUYrr1URvjhqYmxQhwx1m/Jdju4AHzW40d0WW21tbPe2x11cHZABPVN7t3M+e7wViMY1jA1oAaBgADAAQe4yMLlbWOnavT17qaWqjcBtudFJjdIzO4j+dy6qWuvNkt17pPZrrSx1EXLa3Fp7wRvB8kHI2wScHIHevxM4tAc0Zc/sxtVy37obqX173WWqpxRnGGVL3B7e/eGnKqWOB3tD6iZoDWOLIwBuwN2Qg9A9kpWwtOXkZJ/Nfima58gaD6+C8eXOeSean3RxoCq1BK2rq2ugtzT25OBk/wt+p5IN10VaWdda9lzqo8W+kd9m1w+9kHD0HHzV2rHoqOnoaSKlpImxQxN2WMbwAWQgIiICIiAiIgIiICIiAiIgHetDq/Tdr1Fa5IrlT7To2OMUrNz4zj8J+i9RBznabZT1N0ippNsMfLsEtIzgEju8F0TpTTNs07S7NuidtyjMkshy93hnu8AiIJAiIgIiIPMDKqPpT0daKOnlulJHJBM7L3RscOrJ78Y3eiIgi3Rfpq233UbornG6WGCDrhHtYa52Rx8F0FDFHDG2OGNscbBstYwYDR3AIiD6IiICIiAiIgIiIP/2Q=="
+        alt=""
+/>
+</div>
+</div class="card-content">
+</div class="card-title">Headphone Gaming</div>
+</div class="Card Subtitle">Rp.253.000,00</div>
+<p>
+    Headphone adalah perangkat sedehana untuk mendengakrkan musik,game,dan lain lain
+</div>
     </body>
-</html>
+    </html>
